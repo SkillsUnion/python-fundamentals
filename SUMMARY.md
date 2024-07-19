@@ -9,19 +9,7 @@
   - [💬 Slack](course-logistics/course-methodology/slack.md)
   - [🎲 Course Projects](course-logistics/course-methodology/projects.md)
 - [💻 Required Hardware and Software](course-logistics/required-hardware-and-software.md)
-  - [☝ Required Software 1](course-logistics/required-hardware-and-software/required-software-1.md)
-  - [✌ Required Software 2](course-logistics/required-hardware-and-software/required-software-2.md)
-  - [👍 Recommended Setup](course-logistics/required-hardware-and-software/recommended-set-up.md)
-- [🗓 Schedule](course-logistics/schedule-and-pairings/README.md)
-  - [📅 Fundamentals 27 Schedule](course-logistics/schedule-and-pairings/batch-27-schedule.md)
-  - [📅 Fundamentals 28 Schedule](course-logistics/schedule-and-pairings/batch-27-schedule-1.md)
-  - [📅 Fundamentals 29 Schedule](course-logistics/schedule-and-pairings/batch-27-schedule-2.md)
-- [💡 Tips and Tricks](course-logistics/tips-and-tricks/README.md)
-  - [📒 Coding Strategies](course-logistics/tips-and-tricks/coding-strategies.md)
-  - [🛠 Tooling Pro Tips](course-logistics/tips-and-tricks/tooling-pro-tips.md)
-- [🎓 Post-Course](course-logistics/post-course/README.md)
-  - [🎓 LinkedIn Certificates](course-logistics/post-course/linkedin-certificates.md)
-  - [🚂 Bootcamp Admission Criteria](course-logistics/post-course/bootcamp-admission-criteria.md)
+  - [☝ Required Software](course-logistics/required-hardware-and-software/required-software.md)
 
 ## 1: Introduction
 
@@ -30,13 +18,13 @@
 - [1.3: Google Colab](1-introduction/1.3-google-colab.md)
 - [Additional Resources 1](1-introduction/additional-resources-1.md)
 
-## 2: Basic Syntax and Data Manipulation
+## 2: Basic Syntax and Data Types
 
-- [2.1: Python Syntax and Commenting](2-basic-data-manipulation/2.1-syntax.md)
-- [2.2: Variables]()
-- [2.3: Primitive Data Types and Conversion]()
-- [2.4: Boolean Expressions and Operators]()
-- [Additional Resources 2](2-basic-data-manipulation/additional-resources-2.md)
+- [2.1: Python Syntax and Commenting](2-basic-syntax-and-data-types/2.1-python-syntax-and-commenting.md)
+- [2.2: Variables](2-basic-syntax-and-data-types/2.2-variables.md)
+- [2.3: Primitive Data Types and Conversion](2-basic-syntax-and-data-types/2.3-primitive-data-types-and-conversion.md)
+- [2.4: Operators and Boolean Expressions](2-basic-syntax-and-data-types/2.4-operators-and-boolean-expressions.md)
+- [Additional Resources 2](2-basic-syntax-and-data-types/additional-resources-2.md)
 
 ## 3: Data Structures
 
