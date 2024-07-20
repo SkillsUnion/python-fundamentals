@@ -37,11 +37,11 @@
 
 ## 4: Conditionals and Iterations
 
-- [4.1: If, elif and else](4-conditional-logic/4.2-pseudo-code-boolean-or.md)
-- [4.2: While Loops](4-conditional-logic/4.3-boolean-and-not.md)
-- [4.3: For Loops](4-conditional-logic/4.4-input-validation.md)
-- [4.4: Comprehensions](4-conditional-logic/4.4-input-validation.md)
-- [Additional Resources 4](4-conditional-logic/additional-resources-4.md)
+- [4.1: If, Elif and Else](4-conditionals-and-iterations/4.1-if-elif-and-else.md)
+- [4.2: While Loops](4-conditionals-and-iterations/4.2-while-loops.md)
+- [4.3: For Loops](4-conditionals-and-iterations/4.3-for-loops.md)
+- [4.4: Comprehensions](4-conditionals-and-iterations/4.4-comprehensions.md)
+- [Additional Resources 4](4-conditionals-and-iterations/additional-resources-4.md)
 
 ## 5: Functions
 
