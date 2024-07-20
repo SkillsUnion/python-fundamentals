@@ -28,12 +28,12 @@
 
 ## 3: Data Structures
 
-- [3.1: Strings](3-structuring-and-debugging-code/3.1-functions.md)
-- [3.2: Lists](3-structuring-and-debugging-code/3.1-functions.md)
-- [3.3: Tuples](3-structuring-and-debugging-code/3.1-functions.md)
-- [3.4: Sets](3-structuring-and-debugging-code/3.1-functions.md)
-- [3.5: Dictionaries](3-structuring-and-debugging-code/3.1-functions.md)
-- [Additional Resources 3](3-structuring-and-debugging-code/additional-resources-3.md)
+- [3.1: String](3-data-structures/3.1-string.md)
+- [3.2: List](3-data-structures/3.2-list.md)
+- [3.3: Tuple](3-data-structures/3.3-tuple.md)
+- [3.4: Set](3-data-structures/3.4-set.md)
+- [3.5: Dictionary](3-data-structures/3.5-dictionary.md)
+- [Additional Resources 3](3-data-structures/additional-resources-3.md)
 
 ## 4: Conditionals and Iterations
 
@@ -45,9 +45,10 @@
 
 ## 5: Functions
 
-- [5.1: Functions](5-managing-state-and-input-validation/5.1-program-lifecycle-and-state.md)
-- [5.2: Variable Scope](5-managing-state-and-input-validation/5.2-program-state-for-game-modes.md)
-- [5.3: Lambda Functions](5-managing-state-and-input-validation/5.2-program-state-for-game-modes.md)
+- [5.1: Built-in Functions](5-managing-state-and-input-validation/5.1-program-lifecycle-and-state.md)
+- [5.2: Functions](5-managing-state-and-input-validation/5.1-program-lifecycle-and-state.md)
+- [5.3: Variable Scope](5-managing-state-and-input-validation/5.2-program-state-for-game-modes.md)
+- [5.4: Lambda Functions](5-managing-state-and-input-validation/5.2-program-state-for-game-modes.md)
 - [Additional Resources 5](5-managing-state-and-input-validation/additional-resources-5.md)
 
 ## 6: Classes and Objects
