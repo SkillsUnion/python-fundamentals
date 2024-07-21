@@ -53,10 +53,10 @@
 
 ## 6: Classes and Objects
 
-- [6.1: Constructors and Instantiation](6-arrays-and-iteration/6.1-arrays.md)
-- [6.2: Methods](6-arrays-and-iteration/6.2-loops.md)
-- [6.3: Inheritance](6-arrays-and-iteration/6.3-loops-with-arrays.md)
-- [Additional Resources 6](6-arrays-and-iteration/additional-resources-6.md)
+- [6.1: Constructors and Instantiation](6-classes-and-objects/6.1-constructors-and-instantiation.md)
+- [6.2: Methods](6-classes-and-objects/6.2-methods.md)
+- [6.3: Inheritance](6-classes-and-objects/6.3-inheritance.md)
+- [Additional Resources 6](6-classes-and-objects/additional-resources-6.md)
 
 ## 7: Exception Handling
 
