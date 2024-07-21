@@ -45,11 +45,11 @@
 
 ## 5: Functions
 
-- [5.1: Built-in Functions](5-managing-state-and-input-validation/5.1-program-lifecycle-and-state.md)
-- [5.2: Functions](5-managing-state-and-input-validation/5.1-program-lifecycle-and-state.md)
-- [5.3: Variable Scope](5-managing-state-and-input-validation/5.2-program-state-for-game-modes.md)
-- [5.4: Lambda Functions](5-managing-state-and-input-validation/5.2-program-state-for-game-modes.md)
-- [Additional Resources 5](5-managing-state-and-input-validation/additional-resources-5.md)
+- [5.1: Built-in Functions](5-functions/5.1-built-in-functions.md)
+- [5.2: Functions](5-functions/5.2-functions.md)
+- [5.3: Variable Scope](5-functions/5.3-variable-scope.md)
+- [5.4: Arbitrary Arguments and Lambda Functions](5-functions/5.4-arbitrary-arguments-and-lambda-functions.md)
+- [Additional Resources 5](5-functions/additional-resources-5.md)
 
 ## 6: Classes and Objects
 
