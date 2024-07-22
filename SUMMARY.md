@@ -60,9 +60,9 @@
 
 ## 7: Exception Handling
 
-- [7.1: Exceptions](7-version-control/7.1-git.md)
-- [7.2: Error Handling](7-version-control/7.1-git.md)
-- [Additional Resources 7](7-version-control/additional-resources-7.md)
+- [7.1: Exceptions](7-exception-handling/7.1-exceptions.md)
+- [7.2: Error Handling](7-exception-handling/7.2-error-handling.md)
+- [Additional Resources 7](7-exception-handling/additional-resources-7.md)
 
 ## 8: Iterators and I/O
 
