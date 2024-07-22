@@ -64,25 +64,20 @@
 - [7.2: Error Handling](7-exception-handling/7.2-error-handling.md)
 - [Additional Resources 7](7-exception-handling/additional-resources-7.md)
 
-## 8: Iterators and I/O
+## 8: Iterator and I/O
 
-- [8.1: Iterators](8-github/8.1-intro-to-github.md)
-- [8.2: Generators](8-github/8.2-github-fork-and-clone.md)
-- [8.3: User Input]()
-- [8.4: File Handling](8-github/8.3-github-pull-request.md)
-- [Additional Resources 8](8-github/additional-resources-8.md)
+- [8.1: Iterator](8-iterator-and-io/8.1-iterator.md)
+- [8.2: Generator](8-iterator-and-io/8.2-generator.md)
+- [8.3: User Input](8-iterator-and-io/8.3-user-input.md)
+- [8.4: File Handling](8-iterator-and-io/8.4-file-handling.md)
+- [Additional Resources 8](8-iterator-and-io/additional-resources-8.md)
 
 ## 9: Modules
 
-- [9.1: Modules](9-javascript-objects/9.1-javascript-objects.md)
-- [9.2: Dates](9-javascript-objects/9.2-card-deck-generation-with-loops.md)
-- [9.3: Math](9-javascript-objects/9.2-card-deck-generation-with-loops.md)
-- [9.4: Regex](9-javascript-objects/9.2-card-deck-generation-with-loops.md)
-
-## 10: POST COURSE EXERCISES
-
-- [DOM](11-post-course-exercises/pce-dom.md)
-- [Further Readings](11-post-course-exercises/further-readings.md)
+- [9.1: Modules](9-modules/9.1-modules.md)
+- [9.2: Dates](9-modules/9.2-dates.md)
+- [9.3: Math](9-modules/9.3-math.md)
+- [9.4: Regex](9-modules/9.4-regex.md)
 
 ## In-Class Exercises
 
@@ -100,12 +95,5 @@
 ## Projects
 
 - [Project 1: Scissors Paper Stone](projects/project-1-scissors-paper-stone/README.md)
-  - [Project 1: Scissors Paper Stone (Part 1)](projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-1.md)
-  - [Project 1: Scissors Paper Stone (Part 2)](projects/project-1-scissors-paper-stone/project-1-scissors-paper-stone-part-2.md)
 - [Project 2: Beat That!](projects/project-2-beat-that.md)
 - [Project 3: Blackjack](projects/project-3-blackjack.md)
-
-## Past Projects
-
-- [Drawing With Emojis](past-projects/drawing-with-emojis.md)
-- [Guess the Word](past-projects/guess-the-word.md)
