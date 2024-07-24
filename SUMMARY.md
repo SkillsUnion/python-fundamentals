@@ -80,19 +80,6 @@
 - [9.4: Regex](9-modules/9.4-regex.md)
 - [Additional Resources 9](9-modules/additional-resources-9.md)
 
-## In-Class Exercises
-
-- [Day 2: Basic File and Data Manipulation](in-class-exercises/day-2-basic-file-and-data-manipulation.md)
-- [Day 3: Functions](in-class-exercises/day-3-functions.md)
-- [Day 4: If Statements, Boolean Or, Boolean And](in-class-exercises/day-4-if-statements-boolean-or.md)
-- [Day 5: Program State](in-class-exercises/day-5-boolean-and-program-state.md)
-- [Day 6: Scissors Paper Stone Redux](in-class-exercises/day-6-scissors-paper-stone-redux.md)
-- [Day 7: Loops](in-class-exercises/day-7-loops.md)
-- [Day 8: Arrays and Loops](in-class-exercises/day-8-arrays-and-loops.md)
-- [Day 9: Beat That Redux](in-class-exercises/day-9-beat-that-redux.md)
-- [Day 10: Moar Cards / Chat Bot](in-class-exercises/day-10-moar-cards.md)
-- [Day 11: Blackjack Redux, DOM](in-class-exercises/day-11-blackjack-redux-debugger.md)
-
 ## Projects
 
 - [Project 1: Scissors Paper Stone](projects/project-1-scissors-paper-stone/README.md)
