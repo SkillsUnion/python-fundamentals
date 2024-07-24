@@ -78,6 +78,7 @@
 - [9.2: Dates](9-modules/9.2-dates.md)
 - [9.3: Math](9-modules/9.3-math.md)
 - [9.4: Regex](9-modules/9.4-regex.md)
+- [Additional Resources 9](9-modules/additional-resources-9.md)
 
 ## In-Class Exercises
 
