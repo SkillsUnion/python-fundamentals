@@ -82,6 +82,6 @@
 
 ## Projects
 
-- [Project 1: Scissors Paper Stone](projects/project-1-scissors-paper-stone/README.md)
-- [Project 2: Beat That!](projects/project-2-beat-that.md)
-- [Project 3: Blackjack](projects/project-3-blackjack.md)
+- [Project 1: Fizz Buzz](projects/project-1-fizz-buzz/README.md)
+- [Project 2: Longest Common Prefix](projects/project-2-longest-common-prefix/README.md)
+- [Project 3: Black Jack](projects/project-3-blackjack/README.md)
