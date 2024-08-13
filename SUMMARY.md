@@ -2,14 +2,14 @@
 
 - [🚀 Course Overview](README.md)
 
-## Course Logistics
+<!-- ## Course Logistics -->
 
-- [🏫 Course Methodology](course-logistics/course-methodology/README.md)
+<!-- - [🏫 Course Methodology](course-logistics/course-methodology/README.md)
   - [🧩 Course Components](course-logistics/course-methodology/course-components.md)
   - [💬 Slack](course-logistics/course-methodology/slack.md)
   - [🎲 Course Projects](course-logistics/course-methodology/projects.md)
 - [💻 Required Hardware and Software](course-logistics/required-hardware-and-software.md)
-  - [☝ Required Software](course-logistics/required-hardware-and-software/required-software.md)
+  - [☝ Required Software](course-logistics/required-hardware-and-software/required-software.md) -->
 
 ## 1: Introduction
 
