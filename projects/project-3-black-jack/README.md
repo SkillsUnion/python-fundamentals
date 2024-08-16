@@ -65,3 +65,89 @@ Do you want to play again? (y/n): n
 
 Goodbye!
 ```
+
+### Answer
+
+```python
+import random
+
+def create_deck():
+    suits = ['♠', '♡', '♢', '♣']
+    ranks = ['2', '3', '4', '5', '6', '7', '8', '9', '10', 'J', 'Q', 'K', 'A']
+    deck = [{'rank': rank, 'suit': suit} for suit in suits for rank in ranks]
+    random.shuffle(deck)
+    return deck
+
+def get_card_value(card):
+    if card['rank'] in ['J', 'Q', 'K']:
+        return 10
+    elif card['rank'] == 'A':
+        return 11
+    else:
+        return int(card['rank'])
+
+def get_hand_value(hand):
+    value = sum(get_card_value(card) for card in hand)
+    num_aces = sum(1 for card in hand if card['rank'] == 'A')
+    while value > 21 and num_aces:
+        value -= 10
+        num_aces -= 1
+    return value
+
+def display_hand(hand):
+    return ', '.join(f"{card['rank']} {card['suit']}" for card in hand)
+
+def play_blackjack():
+    balance = 100
+    print("\nWelcome to Blackjack!\n")
+    while True:
+        print(f"Balance: ${balance}\n")
+        bet = int(input("Place your bet (min: $10, max: $100): "))
+        while bet < 10 or bet > balance:
+            bet = int(input("Invalid bet amount. Place your bet (min: $10, max: $100): "))
+        deck = create_deck()
+        player_hand = [deck.pop(), deck.pop()]
+        dealer_hand = [deck.pop(), deck.pop()]
+        print(f"\nPlayer's Hand: {display_hand(player_hand)}")
+        print(f"Dealer's Hand: {dealer_hand[0]['rank']} {dealer_hand[0]['suit']}, ?\n")
+        player_total = get_hand_value(player_hand)
+        dealer_total = get_hand_value(dealer_hand)
+        if player_total == 21:
+            print("Player has Blackjack! Player wins.\n")
+            balance += bet
+        else:
+            while player_total < 21:
+                action = input("Do you want to hit or stand? (h/s): ")
+                if action == 'h':
+                    player_hand.append(deck.pop())
+                    print(f"\nPlayer's Hand: {display_hand(player_hand)}")
+                    player_total = get_hand_value(player_hand)
+                    print(f"Player's total: {player_total}\n")
+                    if player_total == 21:
+                        print("Player has Blackjack! Player wins.\n")
+                        balance += bet
+                        break
+                    elif player_total > 21:
+                        print("Player busts! Dealer wins.\n")
+                        balance -= bet
+                        break
+                else:
+                    print("\nPlayer stands.\n")
+                    print(f"Player's total: {player_total}\n")
+                    break
+            if player_total > dealer_total:
+                print("Player wins!\n")
+                balance += bet
+            elif player_total == dealer_total:
+                print("It's a tie!\n")
+            else:
+                print("Dealer wins.\n")
+                balance -= bet
+        print(f"Balance: ${balance}\n")
+        play_again = input("Do you want to play again? (y/n): ")
+        if play_again.lower() != 'y':
+            print("\nGoodbye!")
+            break
+
+play_blackjack()
+```

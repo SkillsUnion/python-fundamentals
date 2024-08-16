@@ -20,6 +20,25 @@ words = ["apple", "app", "application"]
 print(longest_common_prefix(words))  # "app"
 ```
 
+### Answer
+
+```python
+def longest_common_prefix(words):
+    if not words:
+        return ""
+
+    prefix = words[0]
+
+    for word in words[1:]:
+        while word.find(prefix) != 0:
+            prefix = prefix[:-1]
+
+            if not prefix:
+                return ""
+
+    return prefix
+```
+
 ## Problem 2
 
 Modify the function to handle an arbitrary number of input strings.
@@ -32,4 +51,23 @@ print(longest_common_prefix("flower", "flow", "flight", "flour"))  # "fl"
 print(longest_common_prefix("dog", "racecar", "car"))  # ""
 
 print(longest_common_prefix("apple", "app", "application", "apartment"))  # "ap"
+```
+
+### Answer
+
+```python
+def longest_common_prefix(*words):
+    if not words:
+        return ""
+
+    prefix = words[0]
+
+    for word in words[1:]:
+        while word.find(prefix) != 0:
+            prefix = prefix[:-1]
+
+            if not prefix:
+                return ""
+
+    return prefix
 ```
