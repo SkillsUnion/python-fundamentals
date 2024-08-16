@@ -31,5 +31,5 @@ print(longest_common_prefix("flower", "flow", "flight", "flour"))  # "fl"
 
 print(longest_common_prefix("dog", "racecar", "car"))  # ""
 
-print(longest_common_prefix("apple", "app", "application", "apartment"))  # "app"
+print(longest_common_prefix("apple", "app", "application", "apartment"))  # "ap"
 ```
